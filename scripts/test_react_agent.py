@@ -22,7 +22,7 @@ SYSTEM_PROMPT = """你是一个能够执行命令的助手。请严格按以下�
 
 思考：<你的推理>
 动作：<要执行的命令>
-等待系统返回观察结果，再继续。
+等待系统返回观察结果，再继续，注意，你没有sudo权限。
 
 如果已得到最终答案，请输出：
 最终答案：<答案>
@@ -68,6 +68,8 @@ class ReactAgent(Node):
         # 持久化对话历史
         self.messages = [make_msg("system", SYSTEM_PROMPT)]
 
+        # 命令执行超时（秒），需与executor_node的command_timeout保持一致
+        self.command_timeout = 30  # 与服务端默认30秒匹配
 
     def feedback_cb(self, fb_msg):
         """流式回调：实时打印增量内容"""
@@ -85,9 +87,10 @@ class ReactAgent(Node):
         使用 MultiThreadedExecutor 后台 spin + 带超时的等待。
         """
         goal = Chat.Goal()
+        goal.reasoning_effort = "high" 
         goal.stream = True
         goal.messages = messages
-        goal.max_context_tokens = 1000000
+        goal.max_context_tokens = 500000
         goal.truncation_strategy = "drop_oldest"
 
         # 发送 goal，注册反馈回调
@@ -118,15 +121,28 @@ class ReactAgent(Node):
             return None
         return res.content
 
-    def execute(self, command):
-        """执行命令并返回输出字符串"""
+    def execute(self, command, timeout_sec=30):
+        """
+        执行命令并返回输出字符串。
+        客户端等待 timeout_sec 秒，若未响应则返回超时信息。
+        服务端同样有超时机制，会被 timeout 命令杀死。
+        """
         req = ExecuteCommand.Request()
         req.command = command
         future = self.exec_client.call_async(req)
-        rclpy.spin_until_future_complete(self, future)
+
+        # 客户端等待服务回复，超时则放弃等待
+        rclpy.spin_until_future_complete(self, future, timeout_sec=timeout_sec)
+        if not future.done():
+            self.get_logger().error(f"Command timeout: {command}")
+            return f"命令执行超时（>{timeout_sec}秒），已放弃等待。服务端可能仍在执行，但会被自动终止。"
+
         res = future.result()
+        # 检查退出码，服务端的 timeout 命令退出码通常是124 (timeout) 或137 (SIGKILL)
+        if res.exit_code == 124 or res.exit_code == 137:
+            return f"命令执行超时（服务端强制终止，exit={res.exit_code}）"
         if res.exit_code != 0:
-            return f"命令失败 (exit={res.exit_code})\n{res.output}"
+            return f"命令执行失败 (exit={res.exit_code})\n{res.output}"
         return res.output.strip()
 
     def run(self, question):
@@ -134,19 +150,18 @@ class ReactAgent(Node):
         # 追加用户消息
         self.messages.append(make_msg("user", question))
 
-        for step in range(10):
+        for step in range(999):
             print(f"\n--- 第 {step+1} 轮思考 ---")
-            reply = self.think_stream(self.messages)   # 注意传入 self.messages
+            reply = self.think_stream(self.messages)
             if reply is None:
                 print("LLM 调用失败")
-                self.messages.pop()                     # 失败时移除用户消息，避免残留
+                self.messages.pop()  # 失败时移除用户消息，避免残留
                 return "错误：模型无响应"
             print()
 
             # 检查最终答案
             final = parse_final_answer(reply)
             if final:
-                # 将助手最终回复也存入历史
                 self.messages.append(make_msg("assistant", reply))
                 return final
 
@@ -158,7 +173,8 @@ class ReactAgent(Node):
                 continue
 
             print(f"\n[执行] {cmd}")
-            obs = self.execute(cmd)
+            # 使用配置的命令超时时间
+            obs = self.execute(cmd, timeout_sec=self.command_timeout)
             print(f"[结果] {obs}")
 
             # 动作+观察写入历史
@@ -168,10 +184,10 @@ class ReactAgent(Node):
         # 超步数，仍然把当前进展存入历史
         self.messages.append(make_msg("assistant", "超过最大步数，任务中止。"))
         return "超过最大步数，任务中止。"
+
 def main():
     rclpy.init()
     node = ReactAgent()
-    # 使用多线程 executor 在后台 spin，处理反馈和服务调用
     executor = MultiThreadedExecutor()
     executor.add_node(node)
     spin_thread = threading.Thread(target=executor.spin, daemon=True)
