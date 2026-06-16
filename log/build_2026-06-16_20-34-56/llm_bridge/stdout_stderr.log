@@ -1,0 +1,39 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /home/xiaoyezhang/miniconda3/bin/python3  
+-- Found Python3: /home/xiaoyezhang/miniconda3/bin/python3 (found version "3.13.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (2.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_llm_bridge
+Traceback (most recent call last):
+  File [35m"/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description"[0m, line [35m21[0m, in [35m<module>[0m
+    from rosidl_generator_type_description import generate_type_hash
+  File [35m"/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py"[0m, line [35m24[0m, in [35m<module>[0m
+    from rosidl_parser.parser import parse_idl_file
+  File [35m"/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py"[0m, line [35m20[0m, in [35m<module>[0m
+    from lark import Lark
+[1;35mModuleNotFoundError[0m: [35mNo module named 'lark'[0m
+gmake[2]: *** [CMakeFiles/llm_bridge__rosidl_generator_type_description.dir/build.make:79: rosidl_generator_type_description/llm_bridge/msg/ContentPart.json] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/llm_bridge__rosidl_generator_type_description.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+creating llm_bridge.egg-info
+writing llm_bridge.egg-info/PKG-INFO
+writing dependency_links to llm_bridge.egg-info/dependency_links.txt
+writing top-level names to llm_bridge.egg-info/top_level.txt
+writing manifest file 'llm_bridge.egg-info/SOURCES.txt'
+reading manifest file 'llm_bridge.egg-info/SOURCES.txt'
+writing manifest file 'llm_bridge.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_llm_bridge_egg
+gmake: *** [Makefile:146: all] Error 2

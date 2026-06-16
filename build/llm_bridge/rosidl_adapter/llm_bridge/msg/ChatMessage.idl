@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from llm_bridge/msg/ChatMessage.msg
+// generated code does not contain a copyright notice
+
+#include "llm_bridge/msg/ContentPart.idl"
+
+module llm_bridge {
+  module msg {
+    struct ChatMessage {
+      @verbatim (language="comment", text=
+        "system / user / assistant")
+      string role;
+
+      @verbatim (language="comment", text=
+        "多模态内容列表")
+      sequence<llm_bridge::msg::ContentPart> parts;
+    };
+  };
+};

@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ros_agent/msg/ChatMessage",
+      "fields": [
+        {
+          "name": "role",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "parts",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ros_agent/msg/ContentPart"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ros_agent/msg/ContentPart",
+        "fields": [
+          {
+            "name": "type",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "text",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "image_url",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ros_agent/msg/ChatMessage",
+      "hash_string": "RIHS01_c6c31a565c4845369aeb1d887541573e53a5dc8b975e83a7b1e0dd38f44924ea"
+    },
+    {
+      "type_name": "ros_agent/msg/ContentPart",
+      "hash_string": "RIHS01_b2dc5e6367d4e3b77fd262a9fe002c6efc330a4097431a364bb85ce2e9c6d5f3"
+    }
+  ]
+}

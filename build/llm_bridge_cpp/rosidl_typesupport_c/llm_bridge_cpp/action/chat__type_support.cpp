@@ -1,0 +1,1331 @@
+// generated from rosidl_typesupport_c/resource/idl__type_support.cpp.em
+// with input from llm_bridge_cpp:action/Chat.idl
+// generated code does not contain a copyright notice
+
+#include "cstddef"
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "llm_bridge_cpp/action/detail/chat__struct.h"
+#include "llm_bridge_cpp/action/detail/chat__type_support.h"
+#include "llm_bridge_cpp/action/detail/chat__functions.h"
+#include "rosidl_typesupport_c/identifier.h"
+#include "rosidl_typesupport_c/message_type_support_dispatch.h"
+#include "rosidl_typesupport_c/type_support_map.h"
+#include "rosidl_typesupport_c/visibility_control.h"
+#include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_Goal_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_Goal_type_support_ids_t;
+
+static const _Chat_Goal_type_support_ids_t _Chat_Goal_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_Goal_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_Goal_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_Goal_type_support_symbol_names_t _Chat_Goal_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_Goal)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_Goal)),
+  }
+};
+
+typedef struct _Chat_Goal_type_support_data_t
+{
+  void * data[2];
+} _Chat_Goal_type_support_data_t;
+
+static _Chat_Goal_type_support_data_t _Chat_Goal_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_Goal_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_Goal_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_Goal_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_Goal_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_Goal_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_Goal_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_Goal__get_type_hash,
+  &llm_bridge_cpp__action__Chat_Goal__get_type_description,
+  &llm_bridge_cpp__action__Chat_Goal__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_Goal)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_Goal_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_Result_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_Result_type_support_ids_t;
+
+static const _Chat_Result_type_support_ids_t _Chat_Result_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_Result_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_Result_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_Result_type_support_symbol_names_t _Chat_Result_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_Result)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_Result)),
+  }
+};
+
+typedef struct _Chat_Result_type_support_data_t
+{
+  void * data[2];
+} _Chat_Result_type_support_data_t;
+
+static _Chat_Result_type_support_data_t _Chat_Result_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_Result_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_Result_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_Result_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_Result_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_Result_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_Result_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_Result__get_type_hash,
+  &llm_bridge_cpp__action__Chat_Result__get_type_description,
+  &llm_bridge_cpp__action__Chat_Result__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_Result)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_Result_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_Feedback_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_Feedback_type_support_ids_t;
+
+static const _Chat_Feedback_type_support_ids_t _Chat_Feedback_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_Feedback_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_Feedback_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_Feedback_type_support_symbol_names_t _Chat_Feedback_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_Feedback)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_Feedback)),
+  }
+};
+
+typedef struct _Chat_Feedback_type_support_data_t
+{
+  void * data[2];
+} _Chat_Feedback_type_support_data_t;
+
+static _Chat_Feedback_type_support_data_t _Chat_Feedback_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_Feedback_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_Feedback_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_Feedback_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_Feedback_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_Feedback_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_Feedback_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_Feedback__get_type_hash,
+  &llm_bridge_cpp__action__Chat_Feedback__get_type_description,
+  &llm_bridge_cpp__action__Chat_Feedback__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_Feedback)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_Feedback_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_SendGoal_Request_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_SendGoal_Request_type_support_ids_t;
+
+static const _Chat_SendGoal_Request_type_support_ids_t _Chat_SendGoal_Request_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_SendGoal_Request_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_SendGoal_Request_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_SendGoal_Request_type_support_symbol_names_t _Chat_SendGoal_Request_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_SendGoal_Request)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_SendGoal_Request)),
+  }
+};
+
+typedef struct _Chat_SendGoal_Request_type_support_data_t
+{
+  void * data[2];
+} _Chat_SendGoal_Request_type_support_data_t;
+
+static _Chat_SendGoal_Request_type_support_data_t _Chat_SendGoal_Request_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_SendGoal_Request_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_SendGoal_Request_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_SendGoal_Request_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_SendGoal_Request_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_SendGoal_Request_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_SendGoal_Request_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_SendGoal_Request__get_type_hash,
+  &llm_bridge_cpp__action__Chat_SendGoal_Request__get_type_description,
+  &llm_bridge_cpp__action__Chat_SendGoal_Request__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_SendGoal_Request)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_SendGoal_Request_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_SendGoal_Response_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_SendGoal_Response_type_support_ids_t;
+
+static const _Chat_SendGoal_Response_type_support_ids_t _Chat_SendGoal_Response_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_SendGoal_Response_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_SendGoal_Response_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_SendGoal_Response_type_support_symbol_names_t _Chat_SendGoal_Response_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_SendGoal_Response)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_SendGoal_Response)),
+  }
+};
+
+typedef struct _Chat_SendGoal_Response_type_support_data_t
+{
+  void * data[2];
+} _Chat_SendGoal_Response_type_support_data_t;
+
+static _Chat_SendGoal_Response_type_support_data_t _Chat_SendGoal_Response_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_SendGoal_Response_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_SendGoal_Response_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_SendGoal_Response_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_SendGoal_Response_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_SendGoal_Response_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_SendGoal_Response_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_SendGoal_Response__get_type_hash,
+  &llm_bridge_cpp__action__Chat_SendGoal_Response__get_type_description,
+  &llm_bridge_cpp__action__Chat_SendGoal_Response__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_SendGoal_Response)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_SendGoal_Response_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_SendGoal_Event_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_SendGoal_Event_type_support_ids_t;
+
+static const _Chat_SendGoal_Event_type_support_ids_t _Chat_SendGoal_Event_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_SendGoal_Event_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_SendGoal_Event_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_SendGoal_Event_type_support_symbol_names_t _Chat_SendGoal_Event_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_SendGoal_Event)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_SendGoal_Event)),
+  }
+};
+
+typedef struct _Chat_SendGoal_Event_type_support_data_t
+{
+  void * data[2];
+} _Chat_SendGoal_Event_type_support_data_t;
+
+static _Chat_SendGoal_Event_type_support_data_t _Chat_SendGoal_Event_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_SendGoal_Event_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_SendGoal_Event_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_SendGoal_Event_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_SendGoal_Event_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_SendGoal_Event_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_SendGoal_Event_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_SendGoal_Event__get_type_hash,
+  &llm_bridge_cpp__action__Chat_SendGoal_Event__get_type_description,
+  &llm_bridge_cpp__action__Chat_SendGoal_Event__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_SendGoal_Event)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_SendGoal_Event_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+#include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+#include "rosidl_typesupport_c/service_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+#include "service_msgs/msg/service_event_info.h"
+#include "builtin_interfaces/msg/time.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+typedef struct _Chat_SendGoal_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_SendGoal_type_support_ids_t;
+
+static const _Chat_SendGoal_type_support_ids_t _Chat_SendGoal_service_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_SendGoal_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_SendGoal_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_SendGoal_type_support_symbol_names_t _Chat_SendGoal_service_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_SendGoal)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_SendGoal)),
+  }
+};
+
+typedef struct _Chat_SendGoal_type_support_data_t
+{
+  void * data[2];
+} _Chat_SendGoal_type_support_data_t;
+
+static _Chat_SendGoal_type_support_data_t _Chat_SendGoal_service_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_SendGoal_service_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_SendGoal_service_typesupport_ids.typesupport_identifier[0],
+  &_Chat_SendGoal_service_typesupport_symbol_names.symbol_name[0],
+  &_Chat_SendGoal_service_typesupport_data.data[0],
+};
+
+static const rosidl_service_type_support_t Chat_SendGoal_service_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_SendGoal_service_typesupport_map),
+  rosidl_typesupport_c__get_service_typesupport_handle_function,
+  &Chat_SendGoal_Request_message_type_support_handle,
+  &Chat_SendGoal_Response_message_type_support_handle,
+  &Chat_SendGoal_Event_message_type_support_handle,
+  ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_CREATE_EVENT_MESSAGE_SYMBOL_NAME(
+    rosidl_typesupport_c,
+    llm_bridge_cpp,
+    action,
+    Chat_SendGoal
+  ),
+  ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_DESTROY_EVENT_MESSAGE_SYMBOL_NAME(
+    rosidl_typesupport_c,
+    llm_bridge_cpp,
+    action,
+    Chat_SendGoal
+  ),
+  &llm_bridge_cpp__action__Chat_SendGoal__get_type_hash,
+  &llm_bridge_cpp__action__Chat_SendGoal__get_type_description,
+  &llm_bridge_cpp__action__Chat_SendGoal__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_SendGoal)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_SendGoal_service_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_GetResult_Request_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_GetResult_Request_type_support_ids_t;
+
+static const _Chat_GetResult_Request_type_support_ids_t _Chat_GetResult_Request_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_GetResult_Request_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_GetResult_Request_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_GetResult_Request_type_support_symbol_names_t _Chat_GetResult_Request_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_GetResult_Request)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_GetResult_Request)),
+  }
+};
+
+typedef struct _Chat_GetResult_Request_type_support_data_t
+{
+  void * data[2];
+} _Chat_GetResult_Request_type_support_data_t;
+
+static _Chat_GetResult_Request_type_support_data_t _Chat_GetResult_Request_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_GetResult_Request_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_GetResult_Request_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_GetResult_Request_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_GetResult_Request_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_GetResult_Request_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_GetResult_Request_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_GetResult_Request__get_type_hash,
+  &llm_bridge_cpp__action__Chat_GetResult_Request__get_type_description,
+  &llm_bridge_cpp__action__Chat_GetResult_Request__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_GetResult_Request)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_GetResult_Request_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_GetResult_Response_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_GetResult_Response_type_support_ids_t;
+
+static const _Chat_GetResult_Response_type_support_ids_t _Chat_GetResult_Response_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_GetResult_Response_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_GetResult_Response_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_GetResult_Response_type_support_symbol_names_t _Chat_GetResult_Response_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_GetResult_Response)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_GetResult_Response)),
+  }
+};
+
+typedef struct _Chat_GetResult_Response_type_support_data_t
+{
+  void * data[2];
+} _Chat_GetResult_Response_type_support_data_t;
+
+static _Chat_GetResult_Response_type_support_data_t _Chat_GetResult_Response_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_GetResult_Response_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_GetResult_Response_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_GetResult_Response_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_GetResult_Response_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_GetResult_Response_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_GetResult_Response_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_GetResult_Response__get_type_hash,
+  &llm_bridge_cpp__action__Chat_GetResult_Response__get_type_description,
+  &llm_bridge_cpp__action__Chat_GetResult_Response__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_GetResult_Response)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_GetResult_Response_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_GetResult_Event_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_GetResult_Event_type_support_ids_t;
+
+static const _Chat_GetResult_Event_type_support_ids_t _Chat_GetResult_Event_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_GetResult_Event_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_GetResult_Event_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_GetResult_Event_type_support_symbol_names_t _Chat_GetResult_Event_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_GetResult_Event)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_GetResult_Event)),
+  }
+};
+
+typedef struct _Chat_GetResult_Event_type_support_data_t
+{
+  void * data[2];
+} _Chat_GetResult_Event_type_support_data_t;
+
+static _Chat_GetResult_Event_type_support_data_t _Chat_GetResult_Event_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_GetResult_Event_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_GetResult_Event_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_GetResult_Event_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_GetResult_Event_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_GetResult_Event_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_GetResult_Event_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_GetResult_Event__get_type_hash,
+  &llm_bridge_cpp__action__Chat_GetResult_Event__get_type_description,
+  &llm_bridge_cpp__action__Chat_GetResult_Event__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_GetResult_Event)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_GetResult_Event_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/service_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+// already included above
+// #include "service_msgs/msg/service_event_info.h"
+// already included above
+// #include "builtin_interfaces/msg/time.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+typedef struct _Chat_GetResult_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_GetResult_type_support_ids_t;
+
+static const _Chat_GetResult_type_support_ids_t _Chat_GetResult_service_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_GetResult_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_GetResult_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_GetResult_type_support_symbol_names_t _Chat_GetResult_service_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_GetResult)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_GetResult)),
+  }
+};
+
+typedef struct _Chat_GetResult_type_support_data_t
+{
+  void * data[2];
+} _Chat_GetResult_type_support_data_t;
+
+static _Chat_GetResult_type_support_data_t _Chat_GetResult_service_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_GetResult_service_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_GetResult_service_typesupport_ids.typesupport_identifier[0],
+  &_Chat_GetResult_service_typesupport_symbol_names.symbol_name[0],
+  &_Chat_GetResult_service_typesupport_data.data[0],
+};
+
+static const rosidl_service_type_support_t Chat_GetResult_service_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_GetResult_service_typesupport_map),
+  rosidl_typesupport_c__get_service_typesupport_handle_function,
+  &Chat_GetResult_Request_message_type_support_handle,
+  &Chat_GetResult_Response_message_type_support_handle,
+  &Chat_GetResult_Event_message_type_support_handle,
+  ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_CREATE_EVENT_MESSAGE_SYMBOL_NAME(
+    rosidl_typesupport_c,
+    llm_bridge_cpp,
+    action,
+    Chat_GetResult
+  ),
+  ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_DESTROY_EVENT_MESSAGE_SYMBOL_NAME(
+    rosidl_typesupport_c,
+    llm_bridge_cpp,
+    action,
+    Chat_GetResult
+  ),
+  &llm_bridge_cpp__action__Chat_GetResult__get_type_hash,
+  &llm_bridge_cpp__action__Chat_GetResult__get_type_description,
+  &llm_bridge_cpp__action__Chat_GetResult__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_GetResult)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_GetResult_service_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__struct.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace llm_bridge_cpp
+{
+
+namespace action
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _Chat_FeedbackMessage_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _Chat_FeedbackMessage_type_support_ids_t;
+
+static const _Chat_FeedbackMessage_type_support_ids_t _Chat_FeedbackMessage_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _Chat_FeedbackMessage_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _Chat_FeedbackMessage_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _Chat_FeedbackMessage_type_support_symbol_names_t _Chat_FeedbackMessage_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, llm_bridge_cpp, action, Chat_FeedbackMessage)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, llm_bridge_cpp, action, Chat_FeedbackMessage)),
+  }
+};
+
+typedef struct _Chat_FeedbackMessage_type_support_data_t
+{
+  void * data[2];
+} _Chat_FeedbackMessage_type_support_data_t;
+
+static _Chat_FeedbackMessage_type_support_data_t _Chat_FeedbackMessage_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _Chat_FeedbackMessage_message_typesupport_map = {
+  2,
+  "llm_bridge_cpp",
+  &_Chat_FeedbackMessage_message_typesupport_ids.typesupport_identifier[0],
+  &_Chat_FeedbackMessage_message_typesupport_symbol_names.symbol_name[0],
+  &_Chat_FeedbackMessage_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t Chat_FeedbackMessage_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_Chat_FeedbackMessage_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &llm_bridge_cpp__action__Chat_FeedbackMessage__get_type_hash,
+  &llm_bridge_cpp__action__Chat_FeedbackMessage__get_type_description,
+  &llm_bridge_cpp__action__Chat_FeedbackMessage__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace action
+
+}  // namespace llm_bridge_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, llm_bridge_cpp, action, Chat_FeedbackMessage)() {
+  return &::llm_bridge_cpp::action::rosidl_typesupport_c::Chat_FeedbackMessage_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+#include "action_msgs/msg/goal_status_array.h"
+#include "action_msgs/srv/cancel_goal.h"
+#include "llm_bridge_cpp/action/chat.h"
+// already included above
+// #include "llm_bridge_cpp/action/detail/chat__type_support.h"
+
+static rosidl_action_type_support_t _llm_bridge_cpp__action__Chat__typesupport_c = {
+  NULL, NULL, NULL, NULL, NULL,
+  &llm_bridge_cpp__action__Chat__get_type_hash,
+  &llm_bridge_cpp__action__Chat__get_type_description,
+  &llm_bridge_cpp__action__Chat__get_type_description_sources,
+};
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_action_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__ACTION_SYMBOL_NAME(
+  rosidl_typesupport_c, llm_bridge_cpp, action, Chat)()
+{
+  // Thread-safe by always writing the same values to the static struct
+  _llm_bridge_cpp__action__Chat__typesupport_c.goal_service_type_support =
+    ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(
+    rosidl_typesupport_c, llm_bridge_cpp, action, Chat_SendGoal)();
+  _llm_bridge_cpp__action__Chat__typesupport_c.result_service_type_support =
+    ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(
+    rosidl_typesupport_c, llm_bridge_cpp, action, Chat_GetResult)();
+  _llm_bridge_cpp__action__Chat__typesupport_c.cancel_service_type_support =
+    ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(
+    rosidl_typesupport_c, action_msgs, srv, CancelGoal)();
+  _llm_bridge_cpp__action__Chat__typesupport_c.feedback_message_type_support =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+    rosidl_typesupport_c, llm_bridge_cpp, action, Chat_FeedbackMessage)();
+  _llm_bridge_cpp__action__Chat__typesupport_c.status_message_type_support =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+    rosidl_typesupport_c, action_msgs, msg, GoalStatusArray)();
+
+  return &_llm_bridge_cpp__action__Chat__typesupport_c;
+}
+
+#ifdef __cplusplus
+}
+#endif

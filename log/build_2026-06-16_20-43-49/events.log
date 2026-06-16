@@ -1,0 +1,314 @@
+[0.000000] (-) TimerEvent: {}
+[0.000881] (llm_bridge_cpp) JobQueued: {'identifier': 'llm_bridge_cpp', 'dependencies': OrderedDict()}
+[0.000962] (llm_bridge_cpp) JobStarted: {'identifier': 'llm_bridge_cpp'}
+[0.007206] (llm_bridge_cpp) JobProgress: {'identifier': 'llm_bridge_cpp', 'progress': 'cmake'}
+[0.009035] (llm_bridge_cpp) JobProgress: {'identifier': 'llm_bridge_cpp', 'progress': 'build'}
+[0.009657] (llm_bridge_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', '--', '-j16', '-l16'], 'cwd': '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'xiaoyezhang', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/xiaoyezhang', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/xiaoyezhang/Deve/ros2agent/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/xiaoyezhang/miniconda3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'xiaoyezhang', 'NAME': 'LUOBO-4RDM0SB', 'WSL_INTEROP': '/run/WSL/551_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/xiaoyezhang/miniconda3/condabin:/home/xiaoyezhang/.local/bin:/home/xiaoyezhang/.local/share/pnpm:/home/xiaoyezhang/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/CorpLink/current/module/epm/x64:/mnt/d/platform-tools:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Python312:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/xiaoye.zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/xiaoye.zhang/AppData/Roaming/npm:/mnt/d/platform-tools:/snap/bin', 'WSL_PAC_URL': 'http://10.9.1.250:8081/proxy.plist.pac', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/xiaoyezhang/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/xiaoyezhang/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', 'CONDA_EXE': '/home/xiaoyezhang/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge/lib/python3.13/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/xiaoyezhang/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.031910] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.056530] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099221] (-) TimerEvent: {}
+[0.119749] (llm_bridge_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.125375] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.127111] (llm_bridge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199430] (-) TimerEvent: {}
+[0.289242] (llm_bridge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299679] (-) TimerEvent: {}
+[0.318973] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.320583] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[0.372637] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.399855] (-) TimerEvent: {}
+[0.410211] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.411557] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500084] (-) TimerEvent: {}
+[0.600522] (-) TimerEvent: {}
+[0.645063] (llm_bridge_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700706] (-) TimerEvent: {}
+[0.801048] (-) TimerEvent: {}
+[0.812190] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.901255] (-) TimerEvent: {}
+[1.001569] (-) TimerEvent: {}
+[1.101937] (-) TimerEvent: {}
+[1.202213] (-) TimerEvent: {}
+[1.302562] (-) TimerEvent: {}
+[1.402938] (-) TimerEvent: {}
+[1.503342] (-) TimerEvent: {}
+[1.603643] (-) TimerEvent: {}
+[1.703964] (-) TimerEvent: {}
+[1.804444] (-) TimerEvent: {}
+[1.904853] (-) TimerEvent: {}
+[2.005261] (-) TimerEvent: {}
+[2.072237] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.105442] (-) TimerEvent: {}
+[2.169819] (llm_bridge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.205598] (-) TimerEvent: {}
+[2.297856] (llm_bridge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.299143] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.305749] (-) TimerEvent: {}
+[2.406100] (-) TimerEvent: {}
+[2.506543] (-) TimerEvent: {}
+[2.594774] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.606909] (-) TimerEvent: {}
+[2.617756] (llm_bridge_cpp) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.667814] (llm_bridge_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.681002] (llm_bridge_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp\n'}
+[2.707243] (-) TimerEvent: {}
+[2.717299] (llm_bridge_cpp) StdoutLine: {'line': b'[  1%] Built target llm_bridge_cpp__rosidl_generator_type_description\n'}
+[2.725216] (llm_bridge_cpp) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_llm_bridge_cpp\n'}
+[2.736905] (llm_bridge_cpp) StdoutLine: {'line': b'[  3%] Built target llm_bridge_cpp__cpp\n'}
+[2.743129] (llm_bridge_cpp) StdoutLine: {'line': b'[ 23%] Built target llm_bridge_cpp__rosidl_generator_c\n'}
+[2.768810] (llm_bridge_cpp) StdoutLine: {'line': b'[ 32%] Built target llm_bridge_cpp__rosidl_typesupport_cpp\n'}
+[2.769483] (llm_bridge_cpp) StdoutLine: {'line': b'[ 41%] Built target llm_bridge_cpp__rosidl_typesupport_introspection_c\n'}
+[2.774430] (llm_bridge_cpp) StdoutLine: {'line': b'[ 57%] Built target llm_bridge_cpp__rosidl_typesupport_c\n'}
+[2.774700] (llm_bridge_cpp) StdoutLine: {'line': b'[ 58%] Built target llm_bridge_cpp__rosidl_typesupport_fastrtps_c\n'}
+[2.777864] (llm_bridge_cpp) StdoutLine: {'line': b'[ 67%] Built target llm_bridge_cpp__rosidl_typesupport_introspection_cpp\n'}
+[2.779094] (llm_bridge_cpp) StdoutLine: {'line': b'[ 76%] Built target llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp\n'}
+[2.800228] (llm_bridge_cpp) StdoutLine: {'line': b'[ 76%] Built target llm_bridge_cpp\n'}
+[2.806095] (llm_bridge_cpp) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/llm_chat_node.dir/src/llm_chat_node.cpp.o\x1b[0m\n'}
+[2.807561] (-) TimerEvent: {}
+[2.824849] (llm_bridge_cpp) StdoutLine: {'line': b'[ 80%] Built target llm_bridge_cpp__py\n'}
+[2.859439] (llm_bridge_cpp) StdoutLine: {'line': b'[ 87%] Built target llm_bridge_cpp__rosidl_generator_py\n'}
+[2.892528] (llm_bridge_cpp) StdoutLine: {'line': b'[ 91%] Built target llm_bridge_cpp_s__rosidl_typesupport_introspection_c\n'}
+[2.893679] (llm_bridge_cpp) StdoutLine: {'line': b'[ 94%] Built target llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c\n'}
+[2.902244] (llm_bridge_cpp) StdoutLine: {'line': b'[ 98%] Built target llm_bridge_cpp_s__rosidl_typesupport_c\n'}
+[2.907728] (-) TimerEvent: {}
+[3.008231] (-) TimerEvent: {}
+[3.014136] (llm_bridge_cpp) StdoutLine: {'line': b'running egg_info\n'}
+[3.036400] (llm_bridge_cpp) StdoutLine: {'line': b'writing llm_bridge_cpp.egg-info/PKG-INFO\n'}
+[3.036904] (llm_bridge_cpp) StdoutLine: {'line': b'writing dependency_links to llm_bridge_cpp.egg-info/dependency_links.txt\n'}
+[3.037295] (llm_bridge_cpp) StdoutLine: {'line': b'writing top-level names to llm_bridge_cpp.egg-info/top_level.txt\n'}
+[3.087029] (llm_bridge_cpp) StdoutLine: {'line': b"reading manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'\n"}
+[3.087852] (llm_bridge_cpp) StdoutLine: {'line': b"writing manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'\n"}
+[3.108472] (-) TimerEvent: {}
+[3.119940] (llm_bridge_cpp) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_llm_bridge_cpp_egg\n'}
+[3.208691] (-) TimerEvent: {}
+[3.309300] (-) TimerEvent: {}
+[3.409740] (-) TimerEvent: {}
+[3.510253] (-) TimerEvent: {}
+[3.610853] (-) TimerEvent: {}
+[3.711334] (-) TimerEvent: {}
+[3.811870] (-) TimerEvent: {}
+[3.912377] (-) TimerEvent: {}
+[4.013203] (-) TimerEvent: {}
+[4.113712] (-) TimerEvent: {}
+[4.214236] (-) TimerEvent: {}
+[4.314686] (-) TimerEvent: {}
+[4.415149] (-) TimerEvent: {}
+[4.515658] (-) TimerEvent: {}
+[4.616204] (-) TimerEvent: {}
+[4.716848] (-) TimerEvent: {}
+[4.817392] (-) TimerEvent: {}
+[4.917969] (-) TimerEvent: {}
+[5.018523] (-) TimerEvent: {}
+[5.119113] (-) TimerEvent: {}
+[5.219577] (-) TimerEvent: {}
+[5.319968] (-) TimerEvent: {}
+[5.420515] (-) TimerEvent: {}
+[5.520954] (-) TimerEvent: {}
+[5.621525] (-) TimerEvent: {}
+[5.721928] (-) TimerEvent: {}
+[5.822395] (-) TimerEvent: {}
+[5.922987] (-) TimerEvent: {}
+[6.023688] (-) TimerEvent: {}
+[6.124124] (-) TimerEvent: {}
+[6.224564] (-) TimerEvent: {}
+[6.325024] (-) TimerEvent: {}
+[6.425451] (-) TimerEvent: {}
+[6.526050] (-) TimerEvent: {}
+[6.626562] (-) TimerEvent: {}
+[6.726983] (-) TimerEvent: {}
+[6.827447] (-) TimerEvent: {}
+[6.927818] (-) TimerEvent: {}
+[7.028325] (-) TimerEvent: {}
+[7.128762] (-) TimerEvent: {}
+[7.229269] (-) TimerEvent: {}
+[7.329858] (-) TimerEvent: {}
+[7.430251] (-) TimerEvent: {}
+[7.530653] (-) TimerEvent: {}
+[7.631162] (-) TimerEvent: {}
+[7.731749] (-) TimerEvent: {}
+[7.832104] (-) TimerEvent: {}
+[7.932562] (-) TimerEvent: {}
+[8.032913] (-) TimerEvent: {}
+[8.133285] (-) TimerEvent: {}
+[8.233600] (-) TimerEvent: {}
+[8.334012] (-) TimerEvent: {}
+[8.434411] (-) TimerEvent: {}
+[8.534745] (-) TimerEvent: {}
+[8.635195] (-) TimerEvent: {}
+[8.735544] (-) TimerEvent: {}
+[8.835996] (-) TimerEvent: {}
+[8.936417] (-) TimerEvent: {}
+[9.036806] (-) TimerEvent: {}
+[9.137219] (-) TimerEvent: {}
+[9.237781] (-) TimerEvent: {}
+[9.338112] (-) TimerEvent: {}
+[9.438506] (-) TimerEvent: {}
+[9.538917] (-) TimerEvent: {}
+[9.592143] (llm_bridge_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable llm_chat_node\x1b[0m\n'}
+[9.639111] (-) TimerEvent: {}
+[9.739526] (-) TimerEvent: {}
+[9.839849] (-) TimerEvent: {}
+[9.940292] (-) TimerEvent: {}
+[9.976812] (llm_bridge_cpp) StdoutLine: {'line': b'[100%] Built target llm_chat_node\n'}
+[9.987637] (llm_bridge_cpp) CommandEnded: {'returncode': 0}
+[9.988530] (llm_bridge_cpp) JobProgress: {'identifier': 'llm_bridge_cpp', 'progress': 'install'}
+[9.997733] (llm_bridge_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp'], 'cwd': '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'xiaoyezhang', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/xiaoyezhang', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/xiaoyezhang/Deve/ros2agent/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/xiaoyezhang/miniconda3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'xiaoyezhang', 'NAME': 'LUOBO-4RDM0SB', 'WSL_INTEROP': '/run/WSL/551_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/xiaoyezhang/miniconda3/condabin:/home/xiaoyezhang/.local/bin:/home/xiaoyezhang/.local/share/pnpm:/home/xiaoyezhang/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/CorpLink/current/module/epm/x64:/mnt/d/platform-tools:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Python312:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/xiaoye.zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/xiaoye.zhang/AppData/Roaming/npm:/mnt/d/platform-tools:/snap/bin', 'WSL_PAC_URL': 'http://10.9.1.250:8081/proxy.plist.pac', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/xiaoyezhang/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/xiaoyezhang/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', 'CONDA_EXE': '/home/xiaoyezhang/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge/lib/python3.13/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/xiaoyezhang/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[10.004801] (llm_bridge_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.005502] (llm_bridge_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.006862] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/ament_index/resource_index/rosidl_interfaces/llm_bridge_cpp\n'}
+[10.014873] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ContentPart.json\n'}
+[10.022662] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ChatMessage.json\n'}
+[10.030893] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/action/Chat.json\n'}
+[10.039490] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/chat.h\n'}
+[10.040385] (-) TimerEvent: {}
+[10.048100] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__functions.h\n'}
+[10.057022] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__struct.h\n'}
+[10.064622] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__type_support.h\n'}
+[10.072668] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/chat_message.h\n'}
+[10.080834] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/content_part.h\n'}
+[10.088700] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__functions.h\n'}
+[10.096469] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__struct.h\n'}
+[10.104185] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__type_support.h\n'}
+[10.111295] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__functions.h\n'}
+[10.118953] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__struct.h\n'}
+[10.126385] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__type_support.h\n'}
+[10.133604] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.140507] (-) TimerEvent: {}
+[10.142187] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/library_path.sh\n'}
+[10.150015] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/library_path.dsv\n'}
+[10.158541] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_fastrtps_c.h\n'}
+[10.166451] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__rosidl_typesupport_fastrtps_c.h\n'}
+[10.174051] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__rosidl_typesupport_fastrtps_c.h\n'}
+[10.182380] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.190626] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_introspection_c.h\n'}
+[10.199648] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__rosidl_typesupport_introspection_c.h\n'}
+[10.207190] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__rosidl_typesupport_introspection_c.h\n'}
+[10.214984] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.222695] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/chat.hpp\n'}
+[10.230641] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__builder.hpp\n'}
+[10.238075] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__struct.hpp\n'}
+[10.240809] (-) TimerEvent: {}
+[10.245239] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__traits.hpp\n'}
+[10.252940] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__type_support.hpp\n'}
+[10.260503] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/chat_message.hpp\n'}
+[10.268164] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/content_part.hpp\n'}
+[10.275659] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__builder.hpp\n'}
+[10.283069] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__struct.hpp\n'}
+[10.290917] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__traits.hpp\n'}
+[10.298275] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__type_support.hpp\n'}
+[10.305495] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__builder.hpp\n'}
+[10.312975] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__struct.hpp\n'}
+[10.320660] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__traits.hpp\n'}
+[10.328002] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__type_support.hpp\n'}
+[10.336560] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.341033] (-) TimerEvent: {}
+[10.344467] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.351794] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.358683] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.366416] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.374840] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.382403] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.389915] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.397911] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/pythonpath.sh\n'}
+[10.405426] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/pythonpath.dsv\n'}
+[10.414793] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[10.422333] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.430613] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.438574] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[10.441231] (-) TimerEvent: {}
+[10.448323] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/__init__.py\n'}
+[10.456236] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_c.c\n'}
+[10.464806] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.473120] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.480702] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/__init__.py\n'}
+[10.487793] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/_chat.py\n'}
+[10.496773] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/_chat_s.c\n'}
+[10.504527] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_c.so\n'}
+[10.511987] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.520496] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_introspection_c.so\n'}
+[10.528181] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/__init__.py\n'}
+[10.536791] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_chat_message.py\n'}
+[10.541462] (-) TimerEvent: {}
+[10.544079] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_chat_message_s.c\n'}
+[10.552590] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_content_part.py\n'}
+[10.559844] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_content_part_s.c\n'}
+[10.567884] (llm_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.568252] (llm_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_introspection_c.so\n'}
+[10.568440] (llm_bridge_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_c.so\n'}
+[10.568723] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ContentPart.idl\n'}
+[10.575969] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ChatMessage.idl\n'}
+[10.584940] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/action/Chat.idl\n'}
+[10.592225] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ContentPart.msg\n'}
+[10.600106] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ChatMessage.msg\n'}
+[10.607507] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/action/Chat.action\n'}
+[10.616116] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/llm_bridge_cpp/llm_chat_node\n'}
+[10.623865] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/ament_index/resource_index/package_run_dependencies/llm_bridge_cpp\n'}
+[10.632386] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/ament_index/resource_index/parent_prefix_path/llm_bridge_cpp\n'}
+[10.639690] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/ament_prefix_path.sh\n'}
+[10.641613] (-) TimerEvent: {}
+[10.647636] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/ament_prefix_path.dsv\n'}
+[10.655476] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/path.sh\n'}
+[10.664697] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/path.dsv\n'}
+[10.675179] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/local_setup.bash\n'}
+[10.686019] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/local_setup.sh\n'}
+[10.696020] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/local_setup.zsh\n'}
+[10.706386] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/local_setup.dsv\n'}
+[10.718733] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/package.dsv\n'}
+[10.729176] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/ament_index/resource_index/packages/llm_bridge_cpp\n'}
+[10.739576] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/rosidl_cmake-extras.cmake\n'}
+[10.741852] (-) TimerEvent: {}
+[10.750184] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.759114] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.768569] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.777722] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.786492] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.795725] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.804851] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cppConfig.cmake\n'}
+[10.813629] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cppConfig-version.cmake\n'}
+[10.821919] (llm_bridge_cpp) StdoutLine: {'line': b'-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/package.xml\n'}
+[10.833859] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_generator_c.so\n'}
+[10.834251] (llm_bridge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_generator_c.so" to ""\n'}
+[10.834337] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_fastrtps_c.so\n'}
+[10.834660] (llm_bridge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.834976] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_introspection_c.so\n'}
+[10.835086] (llm_bridge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.835389] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_c.so\n'}
+[10.835480] (llm_bridge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_c.so" to ""\n'}
+[10.835536] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.835824] (llm_bridge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.836048] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_introspection_cpp.so\n'}
+[10.836507] (llm_bridge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.836599] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_cpp.so\n'}
+[10.836896] (llm_bridge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_cpp.so" to ""\n'}
+[10.842045] (-) TimerEvent: {}
+[10.901471] (llm_bridge_cpp) StdoutLine: {'line': b"Listing '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp'...\n"}
+[10.901967] (llm_bridge_cpp) StdoutLine: {'line': b"Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/__init__.py'...\n"}
+[10.902060] (llm_bridge_cpp) StdoutLine: {'line': b"Listing '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action'...\n"}
+[10.902119] (llm_bridge_cpp) StdoutLine: {'line': b"Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/__init__.py'...\n"}
+[10.902172] (llm_bridge_cpp) StdoutLine: {'line': b"Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/_chat.py'...\n"}
+[10.902239] (llm_bridge_cpp) StdoutLine: {'line': b"Listing '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg'...\n"}
+[10.902287] (llm_bridge_cpp) StdoutLine: {'line': b"Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/__init__.py'...\n"}
+[10.902335] (llm_bridge_cpp) StdoutLine: {'line': b"Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_chat_message.py'...\n"}
+[10.902382] (llm_bridge_cpp) StdoutLine: {'line': b"Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_content_part.py'...\n"}
+[10.907613] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_generator_py.so\n'}
+[10.908068] (llm_bridge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_generator_py.so" to ""\n'}
+[10.908536] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_cExport.cmake\n'}
+[10.909053] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.909177] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.909317] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.909405] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.909570] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.909693] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_cExport.cmake\n'}
+[10.910021] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.910087] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_cppExport.cmake\n'}
+[10.910138] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.910188] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.910239] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.910285] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.910331] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_cppExport.cmake\n'}
+[10.910377] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.910424] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_pyExport.cmake\n'}
+[10.910469] (llm_bridge_cpp) StdoutLine: {'line': b'-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.912423] (llm_bridge_cpp) CommandEnded: {'returncode': 0}
+[10.937564] (llm_bridge_cpp) JobEnded: {'identifier': 'llm_bridge_cpp', 'rc': 0}
+[10.938501] (-) EventReactorShutdown: {}

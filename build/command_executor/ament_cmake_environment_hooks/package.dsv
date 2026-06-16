@@ -1,0 +1,4 @@
+source;share/command_executor/local_setup.bash
+source;share/command_executor/local_setup.dsv
+source;share/command_executor/local_setup.sh
+source;share/command_executor/local_setup.zsh

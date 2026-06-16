@@ -1,0 +1,75 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from llm_bridge_cpp/action/Chat.action
+// generated code does not contain a copyright notice
+
+#include "llm_bridge_cpp/msg/ChatMessage.idl"
+
+module llm_bridge_cpp {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Chat_Goal {
+      @verbatim (language="comment", text=
+        "完整对话上下文")
+      sequence<llm_bridge_cpp::msg::ChatMessage> messages;
+
+      @verbatim (language="comment", text=
+        "true=流式, false=阻塞")
+      boolean stream;
+
+      @verbatim (language="comment", text=
+        "最大上下文 token 数, 0 表示不限制 (粗略估算)")
+      int32 max_context_tokens;
+
+      @verbatim (language="comment", text=
+        "截断策略, 目前仅支持 \"drop_oldest\", 空字符串表示不截断")
+      string truncation_strategy;
+
+      @verbatim (language="comment", text=
+        "思考等级: \"low\", \"medium\", \"high\", 空字符串表示使用模型默认")
+      string reasoning_effort;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Chat_Result {
+      @verbatim (language="comment", text=
+        "最终回复文本")
+      string content;
+
+      @verbatim (language="comment", text=
+        "思考内容 (如果模型提供)")
+      string reasoning_content;
+
+      @verbatim (language="comment", text=
+        "加入 assistant 回复后的完整上下文")
+      sequence<llm_bridge_cpp::msg::ChatMessage> updated_messages;
+
+      boolean success;
+
+      string error_msg;
+
+      @verbatim (language="comment", text=
+        "提示词 token 数 (若获取到)")
+      int32 prompt_tokens;
+
+      @verbatim (language="comment", text=
+        "补全 token 数")
+      int32 completion_tokens;
+
+      @verbatim (language="comment", text=
+        "总 token 数")
+      int32 total_tokens;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Chat_Feedback {
+      @verbatim (language="comment", text=
+        "流式增量文本")
+      string partial_content;
+
+      @verbatim (language="comment", text=
+        "流式增量思考内容")
+      string partial_reasoning;
+    };
+  };
+};

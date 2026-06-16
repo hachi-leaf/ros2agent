@@ -1,0 +1,15 @@
+{
+  "package_name": "llm_bridge_cpp",
+  "output_dir": "/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp/rosidl_generator_type_description/llm_bridge_cpp",
+  "idl_tuples": [
+    "/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp/rosidl_adapter/llm_bridge_cpp:msg/ContentPart.idl",
+    "/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp/rosidl_adapter/llm_bridge_cpp:msg/ChatMessage.idl",
+    "/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp/rosidl_adapter/llm_bridge_cpp:action/Chat.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.000820] (llm_bridge_cpp) JobQueued: {'identifier': 'llm_bridge_cpp', 'dependencies': OrderedDict()}
+[0.001169] (llm_bridge_cpp) JobStarted: {'identifier': 'llm_bridge_cpp'}
+[0.009432] (llm_bridge_cpp) JobProgress: {'identifier': 'llm_bridge_cpp', 'progress': 'cmake'}
+[0.011756] (llm_bridge_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp'], 'cwd': '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'xiaoyezhang', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/xiaoyezhang', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/xiaoyezhang/Deve/ros2agent/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/xiaoyezhang/miniconda3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'xiaoyezhang', 'NAME': 'LUOBO-4RDM0SB', 'WSL_INTEROP': '/run/WSL/551_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/xiaoyezhang/miniconda3/condabin:/home/xiaoyezhang/.local/bin:/home/xiaoyezhang/.local/share/pnpm:/home/xiaoyezhang/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/CorpLink/current/module/epm/x64:/mnt/d/platform-tools:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Python312:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/xiaoye.zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/xiaoye.zhang/AppData/Roaming/npm:/mnt/d/platform-tools:/snap/bin', 'WSL_PAC_URL': 'http://10.9.1.250:8081/proxy.plist.pac', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/xiaoyezhang/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/xiaoyezhang/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', 'CONDA_EXE': '/home/xiaoyezhang/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge/lib/python3.13/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/xiaoyezhang/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.022759] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.044529] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099191] (-) TimerEvent: {}
+[0.105624] (llm_bridge_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.110720] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.112538] (llm_bridge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199449] (-) TimerEvent: {}
+[0.207800] (llm_bridge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.231942] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.233070] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[0.280230] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.299593] (-) TimerEvent: {}
+[0.316992] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.317906] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399709] (-) TimerEvent: {}
+[0.424183] (llm_bridge_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499870] (-) TimerEvent: {}
+[0.559460] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.599995] (-) TimerEvent: {}
+[0.700317] (-) TimerEvent: {}
+[0.800602] (-) TimerEvent: {}
+[0.900891] (-) TimerEvent: {}
+[1.001180] (-) TimerEvent: {}
+[1.101515] (-) TimerEvent: {}
+[1.201907] (-) TimerEvent: {}
+[1.302269] (-) TimerEvent: {}
+[1.325709] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.402501] (-) TimerEvent: {}
+[1.408807] (llm_bridge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.502706] (-) TimerEvent: {}
+[1.534314] (llm_bridge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.535558] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.602893] (-) TimerEvent: {}
+[1.703248] (-) TimerEvent: {}
+[1.789426] (llm_bridge_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.802253] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.802462] (llm_bridge_cpp) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.802508] (llm_bridge_cpp) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.802542] (llm_bridge_cpp) StderrLine: {'line': b'\n'}
+[1.802577] (llm_bridge_cpp) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.802614] (llm_bridge_cpp) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.802647] (llm_bridge_cpp) StderrLine: {'line': b'\n'}
+[1.802679] (llm_bridge_cpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.802712] (llm_bridge_cpp) StderrLine: {'line': b'  CMakeLists.txt:36 (rosidl_target_interfaces)\n'}
+[1.802744] (llm_bridge_cpp) StderrLine: {'line': b'\n'}
+[1.802781] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.803427] (-) TimerEvent: {}
+[1.812209] (llm_bridge_cpp) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.877127] (llm_bridge_cpp) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.890235] (llm_bridge_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp\n'}
+[1.897510] (llm_bridge_cpp) CommandEnded: {'returncode': 0}
+[1.899176] (llm_bridge_cpp) JobProgress: {'identifier': 'llm_bridge_cpp', 'progress': 'build'}
+[1.899903] (llm_bridge_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', '--', '-j16', '-l16'], 'cwd': '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'xiaoyezhang', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/xiaoyezhang', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/xiaoyezhang/Deve/ros2agent/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/xiaoyezhang/miniconda3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'xiaoyezhang', 'NAME': 'LUOBO-4RDM0SB', 'WSL_INTEROP': '/run/WSL/551_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/xiaoyezhang/miniconda3/condabin:/home/xiaoyezhang/.local/bin:/home/xiaoyezhang/.local/share/pnpm:/home/xiaoyezhang/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/CorpLink/current/module/epm/x64:/mnt/d/platform-tools:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Python312:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/xiaoye.zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/xiaoye.zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/xiaoye.zhang/AppData/Roaming/npm:/mnt/d/platform-tools:/snap/bin', 'WSL_PAC_URL': 'http://10.9.1.250:8081/proxy.plist.pac', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/xiaoyezhang/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/xiaoyezhang/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp', 'CONDA_EXE': '/home/xiaoyezhang/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge/lib/python3.13/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'PNPM_HOME': '/home/xiaoyezhang/.local/share/pnpm', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[1.903545] (-) TimerEvent: {}
+[1.937089] (llm_bridge_cpp) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.943070] (llm_bridge_cpp) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_llm_bridge_cpp\n'}
+[2.003713] (-) TimerEvent: {}
+[2.104176] (-) TimerEvent: {}
+[2.162347] (llm_bridge_cpp) StdoutLine: {'line': b'running egg_info\n'}
+[2.163614] (llm_bridge_cpp) StdoutLine: {'line': b'creating llm_bridge_cpp.egg-info\n'}
+[2.182812] (llm_bridge_cpp) StdoutLine: {'line': b'writing llm_bridge_cpp.egg-info/PKG-INFO\n'}
+[2.183141] (llm_bridge_cpp) StdoutLine: {'line': b'writing dependency_links to llm_bridge_cpp.egg-info/dependency_links.txt\n'}
+[2.183457] (llm_bridge_cpp) StdoutLine: {'line': b'writing top-level names to llm_bridge_cpp.egg-info/top_level.txt\n'}
+[2.183604] (llm_bridge_cpp) StdoutLine: {'line': b"writing manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'\n"}
+[2.204287] (-) TimerEvent: {}
+[2.228901] (llm_bridge_cpp) StdoutLine: {'line': b"reading manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'\n"}
+[2.229378] (llm_bridge_cpp) StdoutLine: {'line': b"writing manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'\n"}
+[2.260499] (llm_bridge_cpp) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_llm_bridge_cpp_egg\n'}
+[2.294332] (llm_bridge_cpp) StdoutLine: {'line': b'[  1%] Built target llm_bridge_cpp__rosidl_generator_type_description\n'}
+[2.301095] (llm_bridge_cpp) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.304408] (-) TimerEvent: {}
+[2.307983] (llm_bridge_cpp) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.404552] (-) TimerEvent: {}
+[2.505063] (-) TimerEvent: {}
+[2.605547] (-) TimerEvent: {}
+[2.706054] (-) TimerEvent: {}
+[2.806445] (-) TimerEvent: {}
+[2.864862] (llm_bridge_cpp) StdoutLine: {'line': b'[  5%] Built target llm_bridge_cpp__cpp\n'}
+[2.906696] (-) TimerEvent: {}
+[2.924787] (llm_bridge_cpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/content_part__type_support.c.o\x1b[0m\n'}
+[2.925112] (llm_bridge_cpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/chat_message__description.c.o\x1b[0m\n'}
+[2.925388] (llm_bridge_cpp) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/chat_message__type_support.c.o\x1b[0m\n'}
+[2.926264] (llm_bridge_cpp) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/action/detail/chat__description.c.o\x1b[0m\n'}
+[2.929222] (llm_bridge_cpp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/content_part__functions.c.o\x1b[0m\n'}
+[2.932081] (llm_bridge_cpp) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/action/detail/chat__functions.c.o\x1b[0m\n'}
+[2.932313] (llm_bridge_cpp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/chat_message__functions.c.o\x1b[0m\n'}
+[2.932426] (llm_bridge_cpp) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/content_part__description.c.o\x1b[0m\n'}
+[2.932996] (llm_bridge_cpp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/action/detail/chat__type_support.c.o\x1b[0m\n'}
+[3.006870] (-) TimerEvent: {}
+[3.094890] (llm_bridge_cpp) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libllm_bridge_cpp__rosidl_generator_c.so\x1b[0m\n'}
+[3.107012] (-) TimerEvent: {}
+[3.168828] (llm_bridge_cpp) StdoutLine: {'line': b'[ 23%] Built target llm_bridge_cpp__rosidl_generator_c\n'}
+[3.178482] (llm_bridge_cpp) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.178715] (llm_bridge_cpp) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.178815] (llm_bridge_cpp) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.182645] (llm_bridge_cpp) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.186470] (llm_bridge_cpp) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.197573] (llm_bridge_cpp) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.207211] (-) TimerEvent: {}
+[3.307629] (-) TimerEvent: {}
+[3.408061] (-) TimerEvent: {}
+[3.508555] (-) TimerEvent: {}
+[3.609063] (-) TimerEvent: {}
+[3.709676] (-) TimerEvent: {}
+[3.792992] (llm_bridge_cpp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/llm_bridge_cpp/action/chat__type_support.cpp.o\x1b[0m\n'}
+[3.795992] (llm_bridge_cpp) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/llm_bridge_cpp/msg/chat_message__type_support.cpp.o\x1b[0m\n'}
+[3.798166] (llm_bridge_cpp) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/llm_bridge_cpp/msg/content_part__type_support.cpp.o\x1b[0m\n'}
+[3.809922] (-) TimerEvent: {}
+[3.837273] (llm_bridge_cpp) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llm_bridge_cpp/msg/chat_message__type_support.cpp.o\x1b[0m\n'}
+[3.838870] (llm_bridge_cpp) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llm_bridge_cpp/msg/content_part__type_support.cpp.o\x1b[0m\n'}
+[3.839447] (llm_bridge_cpp) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llm_bridge_cpp/action/chat__type_support.cpp.o\x1b[0m\n'}
+[3.910158] (-) TimerEvent: {}
+[3.922300] (llm_bridge_cpp) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.968270] (llm_bridge_cpp) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llm_bridge_cpp/msg/detail/content_part__type_support.cpp.o\x1b[0m\n'}
+[3.970382] (llm_bridge_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llm_bridge_cpp/msg/detail/chat_message__type_support.cpp.o\x1b[0m\n'}
+[3.987553] (llm_bridge_cpp) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llm_bridge_cpp/action/detail/chat__type_support.cpp.o\x1b[0m\n'}
+[3.999636] (llm_bridge_cpp) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llm_bridge_cpp/msg/detail/content_part__type_support.c.o\x1b[0m\n'}
+[3.999987] (llm_bridge_cpp) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llm_bridge_cpp/msg/detail/chat_message__type_support.c.o\x1b[0m\n'}
+[4.001980] (llm_bridge_cpp) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llm_bridge_cpp/action/detail/chat__type_support.c.o\x1b[0m\n'}
+[4.010474] (-) TimerEvent: {}
+[4.111123] (-) TimerEvent: {}
+[4.176233] (llm_bridge_cpp) StdoutLine: {'line': b'[ 57%] Built target llm_bridge_cpp__rosidl_typesupport_c\n'}
+[4.212145] (-) TimerEvent: {}
+[4.255968] (llm_bridge_cpp) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libllm_bridge_cpp__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.312378] (-) TimerEvent: {}
+[4.413248] (-) TimerEvent: {}
+[4.439619] (llm_bridge_cpp) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llm_bridge_cpp/action/detail/dds_fastrtps/chat__type_support.cpp.o\x1b[0m\n'}
+[4.440508] (llm_bridge_cpp) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llm_bridge_cpp/msg/detail/dds_fastrtps/content_part__type_support.cpp.o\x1b[0m\n'}
+[4.441968] (llm_bridge_cpp) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llm_bridge_cpp/msg/detail/dds_fastrtps/chat_message__type_support.cpp.o\x1b[0m\n'}
+[4.459560] (llm_bridge_cpp) StdoutLine: {'line': b'[ 64%] Built target llm_bridge_cpp__rosidl_typesupport_introspection_c\n'}
+[4.513499] (-) TimerEvent: {}
+[4.615169] (llm_bridge_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llm_bridge_cpp/msg/detail/content_part__type_support_c.cpp.o\x1b[0m\n'}
+[4.615816] (-) TimerEvent: {}
+[4.620774] (llm_bridge_cpp) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llm_bridge_cpp/msg/detail/chat_message__type_support_c.cpp.o\x1b[0m\n'}
+[4.625134] (llm_bridge_cpp) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llm_bridge_cpp/action/detail/chat__type_support_c.cpp.o\x1b[0m\n'}
+[4.716119] (-) TimerEvent: {}
+[4.816928] (-) TimerEvent: {}
+[4.917762] (-) TimerEvent: {}
+[5.018513] (-) TimerEvent: {}
+[5.119363] (-) TimerEvent: {}
+[5.220229] (-) TimerEvent: {}
+[5.321040] (-) TimerEvent: {}
+[5.421798] (-) TimerEvent: {}
+[5.522527] (-) TimerEvent: {}
+[5.623486] (-) TimerEvent: {}
+[5.724364] (-) TimerEvent: {}
+[5.825059] (-) TimerEvent: {}
+[5.925932] (-) TimerEvent: {}
+[6.026670] (-) TimerEvent: {}
+[6.118865] (llm_bridge_cpp) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.126917] (-) TimerEvent: {}
+[6.227886] (-) TimerEvent: {}
+[6.278506] (llm_bridge_cpp) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.328169] (-) TimerEvent: {}
+[6.362801] (llm_bridge_cpp) StdoutLine: {'line': b'[ 73%] Built target llm_bridge_cpp__rosidl_typesupport_cpp\n'}
+[6.428387] (-) TimerEvent: {}
+[6.449891] (llm_bridge_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.501968] (llm_bridge_cpp) StdoutLine: {'line': b'[ 75%] Built target llm_bridge_cpp__rosidl_typesupport_fastrtps_c\n'}
+[6.528580] (-) TimerEvent: {}
+[6.629132] (-) TimerEvent: {}
+[6.659280] (llm_bridge_cpp) StdoutLine: {'line': b'[ 75%] Built target llm_bridge_cpp__rosidl_typesupport_introspection_cpp\n'}
+[6.729422] (-) TimerEvent: {}
+[6.829907] (-) TimerEvent: {}
+[6.887420] (llm_bridge_cpp) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.930048] (-) TimerEvent: {}
+[7.030662] (-) TimerEvent: {}
+[7.043528] (llm_bridge_cpp) StdoutLine: {'line': b'[ 76%] Built target llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp\n'}
+[7.063650] (llm_bridge_cpp) StdoutLine: {'line': b'[ 76%] Built target llm_bridge_cpp\n'}
+[7.081869] (llm_bridge_cpp) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.082086] (llm_bridge_cpp) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/llm_chat_node.dir/src/llm_chat_node.cpp.o\x1b[0m\n'}
+[7.130922] (-) TimerEvent: {}
+[7.231369] (-) TimerEvent: {}
+[7.331876] (-) TimerEvent: {}
+[7.432311] (-) TimerEvent: {}
+[7.532720] (-) TimerEvent: {}
+[7.633273] (-) TimerEvent: {}
+[7.734077] (-) TimerEvent: {}
+[7.834828] (-) TimerEvent: {}
+[7.935401] (-) TimerEvent: {}
+[8.035758] (-) TimerEvent: {}
+[8.059860] (llm_bridge_cpp) StdoutLine: {'line': b'[ 80%] Built target llm_bridge_cpp__py\n'}
+[8.080920] (llm_bridge_cpp) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_py.dir/rosidl_generator_py/llm_bridge_cpp/msg/_content_part_s.c.o\x1b[0m\n'}
+[8.081168] (llm_bridge_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_py.dir/rosidl_generator_py/llm_bridge_cpp/msg/_chat_message_s.c.o\x1b[0m\n'}
+[8.082608] (llm_bridge_cpp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_py.dir/rosidl_generator_py/llm_bridge_cpp/action/_chat_s.c.o\x1b[0m\n'}
+[8.135984] (-) TimerEvent: {}
+[8.236526] (-) TimerEvent: {}
+[8.337099] (-) TimerEvent: {}
+[8.340498] (llm_bridge_cpp) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library libllm_bridge_cpp__rosidl_generator_py.so\x1b[0m\n'}
+[8.437286] (-) TimerEvent: {}
+[8.472795] (llm_bridge_cpp) StdoutLine: {'line': b'[ 87%] Built target llm_bridge_cpp__rosidl_generator_py\n'}
+[8.494570] (llm_bridge_cpp) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp_s__rosidl_typesupport_c.dir/rosidl_generator_py/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.495494] (llm_bridge_cpp) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.496002] (llm_bridge_cpp) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/llm_bridge_cpp_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.537451] (-) TimerEvent: {}
+[8.638008] (-) TimerEvent: {}
+[8.658186] (llm_bridge_cpp) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.663395] (llm_bridge_cpp) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.664120] (llm_bridge_cpp) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.738159] (-) TimerEvent: {}
+[8.753494] (llm_bridge_cpp) StdoutLine: {'line': b'[ 98%] Built target llm_bridge_cpp_s__rosidl_typesupport_c\n'}
+[8.753990] (llm_bridge_cpp) StdoutLine: {'line': b'[ 98%] Built target llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c\n'}
+[8.783375] (llm_bridge_cpp) StdoutLine: {'line': b'[ 98%] Built target llm_bridge_cpp_s__rosidl_typesupport_introspection_c\n'}
+[8.838593] (-) TimerEvent: {}
+[8.939208] (-) TimerEvent: {}
+[9.040145] (-) TimerEvent: {}
+[9.140805] (-) TimerEvent: {}
+[9.241461] (-) TimerEvent: {}
+[9.341915] (-) TimerEvent: {}
+[9.442603] (-) TimerEvent: {}
+[9.543057] (-) TimerEvent: {}
+[9.643598] (-) TimerEvent: {}
+[9.744450] (-) TimerEvent: {}
+[9.844929] (-) TimerEvent: {}
+[9.945487] (-) TimerEvent: {}
+[10.045874] (-) TimerEvent: {}
+[10.069361] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:28:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kusing GoalHandleChat = class rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat>\x1b[m\x1b[K\xe2\x80\x99} does not name a type\n'}
+[10.069588] (llm_bridge_cpp) StderrLine: {'line': b'   28 |   GoalHandleChat::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K goal_handle;\n'}
+[10.069690] (llm_bridge_cpp) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.070018] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KGoalHandleChat\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[10.070203] (llm_bridge_cpp) StderrLine: {'line': b'   35 | std::unordered_map<GoalHandleChat::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K, std::shared_ptr<WriteContext>> active_contexts;\n'}
+[10.070268] (llm_bridge_cpp) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.070309] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.070358] (llm_bridge_cpp) StderrLine: {'line': b'   35 | std::unordered_map<GoalHandleChat::SharedPtr, std::shared_ptr<WriteContext\x1b[01;31m\x1b[K>>\x1b[m\x1b[K active_contexts;\n'}
+[10.070399] (llm_bridge_cpp) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[10.070440] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[10.070478] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[10.070517] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[10.108590] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse LLMChatNode::\x1b[01;32m\x1b[Khandle_cancel\x1b[m\x1b[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.108879] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:84:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kfind\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kactive_contexts\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.108986] (llm_bridge_cpp) StderrLine: {'line': b'   84 |     auto it = active_contexts.\x1b[01;31m\x1b[Kfind\x1b[m\x1b[K(goal_handle);\n'}
+[10.109217] (llm_bridge_cpp) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.109296] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:85:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kactive_contexts\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.109343] (llm_bridge_cpp) StderrLine: {'line': b'   85 |     if (it != active_contexts.\x1b[01;31m\x1b[Kend\x1b[m\x1b[K()) {\n'}
+[10.109383] (llm_bridge_cpp) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.146234] (-) TimerEvent: {}
+[10.168480] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LLMChatNode::\x1b[01;32m\x1b[Kexecute\x1b[m\x1b[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.168695] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:155:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<WriteContext, __gnu_cxx::_S_atomic, false, false>::element_type = struct WriteContext\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct WriteContext\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.168761] (llm_bridge_cpp) StderrLine: {'line': b'  155 |       ctx->\x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K = goal_handle;\n'}
+[10.168805] (llm_bridge_cpp) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.168844] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:156:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat> >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.168889] (llm_bridge_cpp) StderrLine: {'line': b'  156 |       active_contexts\x1b[01;31m\x1b[K[\x1b[m\x1b[Kgoal_handle] = ctx;\n'}
+[10.168925] (llm_bridge_cpp) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.168960] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:172:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kerase\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kactive_contexts\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.168999] (llm_bridge_cpp) StderrLine: {'line': b'  172 |         active_contexts.\x1b[01;31m\x1b[Kerase\x1b[m\x1b[K(goal_handle);\n'}
+[10.169036] (llm_bridge_cpp) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.182277] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic size_t LLMChatNode::\x1b[01;32m\x1b[KWriteCallback\x1b[m\x1b[K(void*, size_t, size_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.182463] (llm_bridge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:272:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct WriteContext\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.182519] (llm_bridge_cpp) StderrLine: {'line': b'  272 |               ctx->\x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K->publish_feedback(feedback);\n'}
+[10.182558] (llm_bridge_cpp) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.246450] (-) TimerEvent: {}
+[10.346989] (-) TimerEvent: {}
+[10.447445] (-) TimerEvent: {}
+[10.547887] (-) TimerEvent: {}
+[10.648305] (-) TimerEvent: {}
+[10.748764] (-) TimerEvent: {}
+[10.849408] (-) TimerEvent: {}
+[10.949877] (-) TimerEvent: {}
+[11.050322] (-) TimerEvent: {}
+[11.150734] (-) TimerEvent: {}
+[11.251301] (-) TimerEvent: {}
+[11.351894] (-) TimerEvent: {}
+[11.452529] (-) TimerEvent: {}
+[11.553018] (-) TimerEvent: {}
+[11.653766] (-) TimerEvent: {}
+[11.754376] (-) TimerEvent: {}
+[11.854989] (-) TimerEvent: {}
+[11.889950] (llm_bridge_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/llm_chat_node.dir/build.make:76: CMakeFiles/llm_chat_node.dir/src/llm_chat_node.cpp.o] Error 1\n'}
+[11.890275] (llm_bridge_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/llm_chat_node.dir/all] Error 2\n'}
+[11.890352] (llm_bridge_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.892155] (llm_bridge_cpp) CommandEnded: {'returncode': 2}
+[11.899177] (llm_bridge_cpp) JobEnded: {'identifier': 'llm_bridge_cpp', 'rc': 2}
+[11.910127] (-) EventReactorShutdown: {}

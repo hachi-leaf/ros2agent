@@ -1,0 +1,148 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:36 (rosidl_target_interfaces)
+
+[0m
+-- Configuring done (1.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_symlink_llm_bridge_cpp
+running egg_info
+creating llm_bridge_cpp.egg-info
+writing llm_bridge_cpp.egg-info/PKG-INFO
+writing dependency_links to llm_bridge_cpp.egg-info/dependency_links.txt
+writing top-level names to llm_bridge_cpp.egg-info/top_level.txt
+writing manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'
+reading manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'
+writing manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_llm_bridge_cpp_egg
+[  1%] Built target llm_bridge_cpp__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target llm_bridge_cpp__cpp
+[  8%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/content_part__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/chat_message__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/chat_message__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/action/detail/chat__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/content_part__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/action/detail/chat__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/chat_message__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/msg/detail/content_part__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_c.dir/rosidl_generator_c/llm_bridge_cpp/action/detail/chat__type_support.c.o[0m
+[ 23%] [32m[1mLinking C shared library libllm_bridge_cpp__rosidl_generator_c.so[0m
+[ 23%] Built target llm_bridge_cpp__rosidl_generator_c
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/llm_bridge_cpp/action/chat__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/llm_bridge_cpp/msg/chat_message__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/llm_bridge_cpp/msg/content_part__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llm_bridge_cpp/msg/chat_message__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llm_bridge_cpp/msg/content_part__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/llm_bridge_cpp/action/chat__type_support.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_c.so[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llm_bridge_cpp/msg/detail/content_part__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llm_bridge_cpp/msg/detail/chat_message__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/llm_bridge_cpp/action/detail/chat__type_support.cpp.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llm_bridge_cpp/msg/detail/content_part__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llm_bridge_cpp/msg/detail/chat_message__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/llm_bridge_cpp/action/detail/chat__type_support.c.o[0m
+[ 57%] Built target llm_bridge_cpp__rosidl_typesupport_c
+[ 58%] [32m[1mLinking C shared library libllm_bridge_cpp__rosidl_typesupport_introspection_c.so[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llm_bridge_cpp/action/detail/dds_fastrtps/chat__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llm_bridge_cpp/msg/detail/dds_fastrtps/content_part__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/llm_bridge_cpp/msg/detail/dds_fastrtps/chat_message__type_support.cpp.o[0m
+[ 64%] Built target llm_bridge_cpp__rosidl_typesupport_introspection_c
+[ 66%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llm_bridge_cpp/msg/detail/content_part__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llm_bridge_cpp/msg/detail/chat_message__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/llm_bridge_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/llm_bridge_cpp/action/detail/chat__type_support_c.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_cpp.so[0m
+[ 73%] [32m[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_fastrtps_c.so[0m
+[ 73%] Built target llm_bridge_cpp__rosidl_typesupport_cpp
+[ 75%] [32m[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_introspection_cpp.so[0m
+[ 75%] Built target llm_bridge_cpp__rosidl_typesupport_fastrtps_c
+[ 75%] Built target llm_bridge_cpp__rosidl_typesupport_introspection_cpp
+[ 76%] [32m[1mLinking CXX shared library libllm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 76%] Built target llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp
+[ 76%] Built target llm_bridge_cpp
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/llm_chat_node.dir/src/llm_chat_node.cpp.o[0m
+[ 80%] Built target llm_bridge_cpp__py
+[ 82%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_py.dir/rosidl_generator_py/llm_bridge_cpp/msg/_content_part_s.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_py.dir/rosidl_generator_py/llm_bridge_cpp/msg/_chat_message_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/llm_bridge_cpp__rosidl_generator_py.dir/rosidl_generator_py/llm_bridge_cpp/action/_chat_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library libllm_bridge_cpp__rosidl_generator_py.so[0m
+[ 87%] Built target llm_bridge_cpp__rosidl_generator_py
+[ 89%] [32mBuilding C object CMakeFiles/llm_bridge_cpp_s__rosidl_typesupport_c.dir/rosidl_generator_py/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/llm_bridge_cpp_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_introspection_c.so[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_c.so[0m
+[ 98%] Built target llm_bridge_cpp_s__rosidl_typesupport_c
+[ 98%] Built target llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c
+[ 98%] Built target llm_bridge_cpp_s__rosidl_typesupport_introspection_c
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:28:19:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in ‘[01m[Kusing GoalHandleChat = class rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat>[m[K’} does not name a type
+   28 |   GoalHandleChat::[01;31m[KSharedPtr[m[K goal_handle;
+      |                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:36:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ is not a member of ‘[01m[KGoalHandleChat[m[K’ {aka ‘[01m[Krclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat>[m[K’}
+   35 | std::unordered_map<GoalHandleChat::[01;31m[KSharedPtr[m[K, std::shared_ptr<WriteContext>> active_contexts;
+      |                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 | std::unordered_map<GoalHandleChat::SharedPtr, std::shared_ptr<WriteContext[01;31m[K>>[m[K active_contexts;
+      |                                                                           [01;31m[K^~[m[K
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:35:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse LLMChatNode::[01;32m[Khandle_cancel[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat> >)[m[K’:
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:84:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfind[m[K’ in ‘[01m[Kactive_contexts[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   84 |     auto it = active_contexts.[01;31m[Kfind[m[K(goal_handle);
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:85:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[Kactive_contexts[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   85 |     if (it != active_contexts.[01;31m[Kend[m[K()) {
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:[m[K In member function ‘[01m[Kvoid LLMChatNode::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat> >)[m[K’:
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:155:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<WriteContext, __gnu_cxx::_S_atomic, false, false>::element_type = struct WriteContext[m[K’ {aka ‘[01m[Kstruct WriteContext[m[K’} has no member named ‘[01m[Kgoal_handle[m[K’
+  155 |       ctx->[01;31m[Kgoal_handle[m[K = goal_handle;
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:156:22:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat> >[m[K’)
+  156 |       active_contexts[01;31m[K[[m[Kgoal_handle] = ctx;
+      |                      [01;31m[K^[m[K
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:172:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kerase[m[K’ in ‘[01m[Kactive_contexts[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  172 |         active_contexts.[01;31m[Kerase[m[K(goal_handle);
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:[m[K In static member function ‘[01m[Kstatic size_t LLMChatNode::[01;32m[KWriteCallback[m[K(void*, size_t, size_t, void*)[m[K’:
+[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:272:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct WriteContext[m[K’ has no member named ‘[01m[Kgoal_handle[m[K’
+  272 |               ctx->[01;31m[Kgoal_handle[m[K->publish_feedback(feedback);
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/llm_chat_node.dir/build.make:76: CMakeFiles/llm_chat_node.dir/src/llm_chat_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/llm_chat_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

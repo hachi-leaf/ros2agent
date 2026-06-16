@@ -1,0 +1,4 @@
+/home/xiaoyezhang/Deve/ros2agent/build/ros_agent/rosidl_adapter/ros_agent:action/Chat.idl
+/home/xiaoyezhang/Deve/ros2agent/build/ros_agent/rosidl_adapter/ros_agent:msg/ChatMessage.idl
+/home/xiaoyezhang/Deve/ros2agent/build/ros_agent/rosidl_adapter/ros_agent:msg/ContentPart.idl
+/home/xiaoyezhang/Deve/ros2agent/build/ros_agent/rosidl_adapter/ros_agent:srv/ExecuteCommand.idl

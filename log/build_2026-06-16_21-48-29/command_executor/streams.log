@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/xiaoyezhang/Deve/ros2agent/build/command_executor': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/xiaoyezhang/Deve/ros2agent/build/command_executor -- -j16 -l16
+[0.037s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.324s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.524s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.544s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.714s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.953s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.164s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.226s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.243s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.252s] -- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+[2.400s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[2.401s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[2.401s]   rosidl_generate_interfaces() the passed file 'action/Chat.action' doesn't
+[2.401s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.401s]   '/home/xiaoyezhang/Deve/ros2agent/src/command_executor'
+[2.401s] Call Stack (most recent call first):
+[2.402s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.402s] 
+[2.402s] [0m
+[2.402s] -- Configuring incomplete, errors occurred!
+[2.407s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[2.409s] Invoked command in '/home/xiaoyezhang/Deve/ros2agent/build/command_executor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/xiaoyezhang/Deve/ros2agent/build/command_executor -- -j16 -l16

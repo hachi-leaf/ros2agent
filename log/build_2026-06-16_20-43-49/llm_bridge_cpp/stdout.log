@@ -1,0 +1,194 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp
+[  1%] Built target llm_bridge_cpp__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_llm_bridge_cpp
+[  3%] Built target llm_bridge_cpp__cpp
+[ 23%] Built target llm_bridge_cpp__rosidl_generator_c
+[ 32%] Built target llm_bridge_cpp__rosidl_typesupport_cpp
+[ 41%] Built target llm_bridge_cpp__rosidl_typesupport_introspection_c
+[ 57%] Built target llm_bridge_cpp__rosidl_typesupport_c
+[ 58%] Built target llm_bridge_cpp__rosidl_typesupport_fastrtps_c
+[ 67%] Built target llm_bridge_cpp__rosidl_typesupport_introspection_cpp
+[ 76%] Built target llm_bridge_cpp__rosidl_typesupport_fastrtps_cpp
+[ 76%] Built target llm_bridge_cpp
+[ 78%] [32mBuilding CXX object CMakeFiles/llm_chat_node.dir/src/llm_chat_node.cpp.o[0m
+[ 80%] Built target llm_bridge_cpp__py
+[ 87%] Built target llm_bridge_cpp__rosidl_generator_py
+[ 91%] Built target llm_bridge_cpp_s__rosidl_typesupport_introspection_c
+[ 94%] Built target llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c
+[ 98%] Built target llm_bridge_cpp_s__rosidl_typesupport_c
+running egg_info
+writing llm_bridge_cpp.egg-info/PKG-INFO
+writing dependency_links to llm_bridge_cpp.egg-info/dependency_links.txt
+writing top-level names to llm_bridge_cpp.egg-info/top_level.txt
+reading manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'
+writing manifest file 'llm_bridge_cpp.egg-info/SOURCES.txt'
+[ 98%] Built target ament_cmake_python_build_llm_bridge_cpp_egg
+[100%] [32m[1mLinking CXX executable llm_chat_node[0m
+[100%] Built target llm_chat_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/ament_index/resource_index/rosidl_interfaces/llm_bridge_cpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ContentPart.json
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ChatMessage.json
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/action/Chat.json
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/chat.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__functions.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__struct.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__type_support.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/chat_message.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/content_part.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__functions.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__struct.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__type_support.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__functions.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__struct.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__type_support.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/library_path.sh
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/library_path.dsv
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/chat.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__builder.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__struct.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__traits.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__type_support.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/chat_message.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/content_part.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__builder.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__struct.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__traits.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__type_support.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__builder.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__struct.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__traits.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__type_support.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/chat_message__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/include/llm_bridge_cpp/llm_bridge_cpp/msg/detail/content_part__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/pythonpath.sh
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/pythonpath.dsv
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp-0.1.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp-0.1.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/__init__.py
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/_llm_bridge_cpp_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/__init__.py
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/_chat.py
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/_chat_s.c
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_c.so
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/__init__.py
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_chat_message.py
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_chat_message_s.c
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_content_part.py
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_content_part_s.c
+-- Up-to-date symlink: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_c.so
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ContentPart.idl
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ChatMessage.idl
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/action/Chat.idl
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ContentPart.msg
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/msg/ChatMessage.msg
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/action/Chat.action
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/llm_bridge_cpp/llm_chat_node
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/ament_index/resource_index/package_run_dependencies/llm_bridge_cpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/ament_index/resource_index/parent_prefix_path/llm_bridge_cpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/path.sh
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/environment/path.dsv
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/local_setup.bash
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/local_setup.sh
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/local_setup.zsh
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/local_setup.dsv
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/package.dsv
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/ament_index/resource_index/packages/llm_bridge_cpp
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cppConfig.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cppConfig-version.cmake
+-- Symlinking: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/package.xml
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_generator_c.so" to ""
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_c.so" to ""
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_typesupport_cpp.so" to ""
+Listing '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp'...
+Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/__init__.py'...
+Listing '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action'...
+Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/__init__.py'...
+Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/action/_chat.py'...
+Listing '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg'...
+Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/__init__.py'...
+Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_chat_message.py'...
+Compiling '/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/python3.12/site-packages/llm_bridge_cpp/msg/_content_part.py'...
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/lib/libllm_bridge_cpp__rosidl_generator_py.so" to ""
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_cExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_cExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_cppExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/llm_bridge_cpp__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_pyExport.cmake
+-- Installing: /home/xiaoyezhang/Deve/ros2agent/install/llm_bridge_cpp/share/llm_bridge_cpp/cmake/export_llm_bridge_cpp__rosidl_generator_pyExport-noconfig.cmake

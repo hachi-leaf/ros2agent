@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "command_executor/srv/ExecuteCommand_Request",
+      "fields": [
+        {
+          "name": "command",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "command_executor/srv/ExecuteCommand_Request",
+      "hash_string": "RIHS01_574b7ebba52d4d718e93cc8d4c1713073ba7aa2e7c8067f232701f2a82090601"
+    }
+  ]
+}

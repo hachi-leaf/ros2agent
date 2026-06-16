@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge': CMAKE_PREFIX_PATH=/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/xiaoyezhang/Deve/ros2agent/src/llm_bridge -DCMAKE_INSTALL_PREFIX=/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge
+[0.018s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.181s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.306s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[0.350s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.829s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.534s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.631s] -- Found PythonExtra: /home/xiaoyezhang/miniconda3/bin/python3  
+[2.252s] -- Found Python3: /home/xiaoyezhang/miniconda3/bin/python3 (found version "3.13.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.297s] -- Configuring done (2.3s)
+[2.347s] -- Generating done (0.0s)
+[2.360s] -- Build files have been written to: /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge
+[2.368s] Invoked command in '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/xiaoyezhang/Deve/ros2agent/src/llm_bridge -DCMAKE_INSTALL_PREFIX=/home/xiaoyezhang/Deve/ros2agent/install/llm_bridge
+[2.370s] Invoking command in '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge': CMAKE_PREFIX_PATH=/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge -- -j16 -l16
+[2.410s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.418s] [  1%] Built target ament_cmake_python_copy_llm_bridge
+[2.461s] Traceback (most recent call last):
+[2.463s]   File [35m"/opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description"[0m, line [35m21[0m, in [35m<module>[0m
+[2.463s]     from rosidl_generator_type_description import generate_type_hash
+[2.463s]   File [35m"/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py"[0m, line [35m24[0m, in [35m<module>[0m
+[2.463s]     from rosidl_parser.parser import parse_idl_file
+[2.463s]   File [35m"/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py"[0m, line [35m20[0m, in [35m<module>[0m
+[2.463s]     from lark import Lark
+[2.463s] [1;35mModuleNotFoundError[0m: [35mNo module named 'lark'[0m
+[2.469s] gmake[2]: *** [CMakeFiles/llm_bridge__rosidl_generator_type_description.dir/build.make:79: rosidl_generator_type_description/llm_bridge/msg/ContentPart.json] Error 1
+[2.469s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/llm_bridge__rosidl_generator_type_description.dir/all] Error 2
+[2.469s] gmake[1]: *** Waiting for unfinished jobs....
+[2.640s] running egg_info
+[2.652s] creating llm_bridge.egg-info
+[2.652s] writing llm_bridge.egg-info/PKG-INFO
+[2.653s] writing dependency_links to llm_bridge.egg-info/dependency_links.txt
+[2.653s] writing top-level names to llm_bridge.egg-info/top_level.txt
+[2.654s] writing manifest file 'llm_bridge.egg-info/SOURCES.txt'
+[2.694s] reading manifest file 'llm_bridge.egg-info/SOURCES.txt'
+[2.695s] writing manifest file 'llm_bridge.egg-info/SOURCES.txt'
+[2.724s] [  1%] Built target ament_cmake_python_build_llm_bridge_egg
+[2.725s] gmake: *** [Makefile:146: all] Error 2
+[2.727s] Invoked command in '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge -- -j16 -l16

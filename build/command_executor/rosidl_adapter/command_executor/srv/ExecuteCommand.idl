@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from command_executor/srv/ExecuteCommand.srv
+// generated code does not contain a copyright notice
+
+
+module command_executor {
+  module srv {
+    struct ExecuteCommand_Request {
+      @verbatim (language="comment", text=
+        "要执行的命令")
+      string command;
+    };
+    struct ExecuteCommand_Response {
+      @verbatim (language="comment", text=
+        "命令退出码（0 成功）")
+      int32 exit_code;
+
+      @verbatim (language="comment", text=
+        "stdout + stderr 输出")
+      string output;
+    };
+  };
+};

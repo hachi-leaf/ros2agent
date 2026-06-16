@@ -1,0 +1,8 @@
+{
+  "package_name": "llm_bridge",
+  "non_idl_tuples": [
+    "/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge:msg/ContentPart.msg",
+    "/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge:msg/ChatMessage.msg",
+    "/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge:action/Chat.action"
+  ]
+}

@@ -1,0 +1,1 @@
+Invoking command in '/home/xiaoyezhang/Deve/ros2agent/build/command_executor': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/xiaoyezhang/Deve/ros2agent/src/command_executor -DCMAKE_INSTALL_PREFIX=/home/xiaoyezhang/Deve/ros2agent/install/command_executor

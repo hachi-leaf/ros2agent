@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_agent/srv/ExecuteCommand.srv
+// generated code does not contain a copyright notice
+
+
+module ros_agent {
+  module srv {
+    struct ExecuteCommand_Request {
+      string command;
+    };
+    struct ExecuteCommand_Response {
+      int32 exit_code;
+
+      string output;
+    };
+  };
+};
