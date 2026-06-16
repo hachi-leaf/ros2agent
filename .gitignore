@@ -1,0 +1,45 @@
+# ROS 工作空间编译产物
+build/
+install/
+log/
+devel/
+
+# 自动生成的消息和服务代码
+msg_gen/
+srv_gen/
+src/*/msg_gen/
+src/*/srv_gen/
+
+# CMake 编译中间文件
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 编译生成的库和可执行文件
+lib/
+bin/
+
+# catkin 相关
+catkin_generated/
+.catkin_tools/
+catkin_workspace/
+
+# 其他
+*.o
+*.a
+*.so
+.DS_Store
