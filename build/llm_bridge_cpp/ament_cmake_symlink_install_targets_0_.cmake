@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp/rosidl_generator_py/llm_bridge_cpp/llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "llm_bridge_cpp_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/llm_bridge_cpp")

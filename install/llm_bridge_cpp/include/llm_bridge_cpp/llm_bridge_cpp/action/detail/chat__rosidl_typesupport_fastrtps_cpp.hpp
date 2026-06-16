@@ -1,1 +1,0 @@
-/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp/rosidl_typesupport_fastrtps_cpp/llm_bridge_cpp/action/detail/chat__rosidl_typesupport_fastrtps_cpp.hpp

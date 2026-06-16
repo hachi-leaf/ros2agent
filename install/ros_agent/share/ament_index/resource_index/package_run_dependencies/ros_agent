@@ -1,1 +1,0 @@
-rclcpp;rclcpp_action;nlohmann_json;libcurl-dev;rosidl_default_generators;rosidl_default_runtime

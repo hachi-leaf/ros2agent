@@ -1,9 +1,0 @@
-{
-  "package_name": "ros_agent",
-  "non_idl_tuples": [
-    "/home/xiaoyezhang/Deve/ros2agent/src/ros_agent:action/Chat.action",
-    "/home/xiaoyezhang/Deve/ros2agent/src/ros_agent:msg/ChatMessage.msg",
-    "/home/xiaoyezhang/Deve/ros2agent/src/ros_agent:msg/ContentPart.msg",
-    "/home/xiaoyezhang/Deve/ros2agent/src/ros_agent:srv/ExecuteCommand.srv"
-  ]
-}

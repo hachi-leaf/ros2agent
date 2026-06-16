@@ -1,6 +1,0 @@
-setup.py
-ros_agent/__init__.py
-ros_agent.egg-info/PKG-INFO
-ros_agent.egg-info/SOURCES.txt
-ros_agent.egg-info/dependency_links.txt
-ros_agent.egg-info/top_level.txt

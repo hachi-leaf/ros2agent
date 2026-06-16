@@ -1,9 +1,0 @@
-[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
-  rosidl_generate_interfaces() the passed file 'srv/ExecuteCommand.srv'
-  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
-  '/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp'
-Call Stack (most recent call first):
-  CMakeLists.txt:10 (rosidl_generate_interfaces)
-
-[0m
-gmake: *** [Makefile:1396: cmake_check_build_system] Error 1

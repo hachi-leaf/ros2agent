@@ -1,4 +1,0 @@
-Invoking command in '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge': CMAKE_PREFIX_PATH=/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge -- -j16 -l16
-Invoked command in '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge -- -j16 -l16
-Invoking command in '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge': CMAKE_PREFIX_PATH=/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge
-Invoked command in '/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/xiaoyezhang/Deve/ros2agent/build/llm_bridge

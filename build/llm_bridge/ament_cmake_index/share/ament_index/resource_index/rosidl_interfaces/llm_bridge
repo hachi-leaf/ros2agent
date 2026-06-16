@@ -1,6 +1,0 @@
-action/Chat.action
-action/Chat.idl
-msg/ChatMessage.idl
-msg/ChatMessage.msg
-msg/ContentPart.idl
-msg/ContentPart.msg

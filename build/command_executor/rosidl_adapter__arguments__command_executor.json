@@ -1,6 +1,0 @@
-{
-  "package_name": "command_executor",
-  "non_idl_tuples": [
-    "/home/xiaoyezhang/Deve/ros2agent/src/command_executor:srv/ExecuteCommand.srv"
-  ]
-}

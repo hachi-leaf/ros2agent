@@ -1,4 +1,0 @@
-string command   # 要执行的命令
----
-int32 exit_code  # 命令退出码（0 成功）
-string output    # stdout + stderr 输出

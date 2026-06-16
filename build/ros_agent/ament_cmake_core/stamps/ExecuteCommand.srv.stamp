@@ -1,4 +1,0 @@
-string command
----
-int32 exit_code
-string output

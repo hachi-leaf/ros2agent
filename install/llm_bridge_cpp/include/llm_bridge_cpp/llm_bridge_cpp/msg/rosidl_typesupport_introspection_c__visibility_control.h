@@ -1,1 +1,0 @@
-/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp/rosidl_typesupport_introspection_c/llm_bridge_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h

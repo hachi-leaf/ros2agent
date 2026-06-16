@@ -1,1 +1,0 @@
-/home/xiaoyezhang/Deve/ros2agent/build/llm_bridge_cpp/rosidl_generator_cpp/llm_bridge_cpp/action/detail/chat__type_support.hpp

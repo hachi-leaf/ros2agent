@@ -1,6 +1,0 @@
-setup.py
-llm_bridge/__init__.py
-llm_bridge.egg-info/PKG-INFO
-llm_bridge.egg-info/SOURCES.txt
-llm_bridge.egg-info/dependency_links.txt
-llm_bridge.egg-info/top_level.txt

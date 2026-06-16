@@ -1,7 +1,0 @@
-[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:[m[K In member function ‘[01m[Kvoid LLMChatNode::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<llm_bridge_cpp::action::Chat> >)[m[K’:
-[01m[K/home/xiaoyezhang/Deve/ros2agent/src/llm_bridge_cpp/src/llm_chat_node.cpp:336:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
-  336 |     } [01;31m[Kelse[m[K {
-      |       [01;31m[K^~~~[m[K
-gmake[2]: *** [CMakeFiles/llm_chat_node.dir/build.make:76: CMakeFiles/llm_chat_node.dir/src/llm_chat_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/llm_chat_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
